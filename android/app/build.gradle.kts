@@ -15,13 +15,12 @@ android {
     }
 
     defaultConfig {
-        defaultConfig {
-    applicationId = "com.example.campusnav_app"
-    minSdkVersion = 21
-    targetSdkVersion = 34
-    versionCode = 1
-    versionName = "1.0"
-}
+        applicationId = "com.example.campusnav_app"
+        minSdk = 21
+        targetSdk = 34
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.flutter_application_1"
         // You can update the following values to match your application needs.
